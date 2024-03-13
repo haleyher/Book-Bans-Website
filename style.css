@@ -1,0 +1,198 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #f2e0c2; 
+}
+
+/* FONT */
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.off);
+}
+@font-face {
+  font-family: Lora;
+  src: url(Lora-Italic.ttf);
+}
+
+/* NAV BAR */
+
+nav {
+  display: block;
+  background-color: rgba(25,24,26,.75);
+  backdrop-filter: saturate(180%) blur(20px);
+  overflow: hidden;
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  margin-left: -8px;
+}
+
+/* Style each link */
+nav a{
+  float: left;
+  color: #c3332b;
+  text-align: center;
+  padding: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  
+
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* Style nav bar when pages are hovered over */
+nav a:hover{
+  background-color: #c3332b;
+  color: rgba(25,24,26);
+}
+
+  #textImageContainer {
+    /* Add a background image */
+    background-image: url('book-wall.jpg'); 
+    background-color:rgba(195,40,29,.75); 
+    background-blend-mode: soft-light;
+    height: 30em;
+    background-position-y: -10em;/* Move the image up */
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3.25em;
+  }
+  
+  /* Style the div that holds the text */
+  #textOverImage {
+    width: 35%;
+    text-align: center;
+    height: auto;
+    padding: 9em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #aa807d;
+  }
+
+/*INTRO/ ABOUT ME SECTION */
+#introText{
+  
+  width: 500 px;
+  display: flex;
+  align-items: center;
+  padding: 3em;
+}
+
+
+#introPic{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 100px;
+
+}
+
+
+/* STYLE TEXT */
+
+h1 {
+  color: #f2e0c2;
+   font-family: Montserrat;
+  
+}
+h2 {
+  color: #c3332b;
+  font-family: Lora;
+  margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  font-size: 175%;
+}
+.subtitle {
+  font-family: Montserrat;
+  color: #f2e0c2;
+  margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  font-size: 150%;
+}
+
+  
+  
+
+h3 {
+  color: #22242e;
+    font-family: Montserrat;
+   margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  font-size: 125%;
+}
+p {
+  color: #22242e;
+    font-family: Montserrat;
+   margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+li {
+  color: #22242e;
+    font-family: Montserrat;
+   margin-left: auto;
+    margin-right: auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+#booksText{
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+/* STYLE IMAGES */
+#Me{
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#NHD{
+  width: 300px;
+  height: auto;
+}
+
+#spanglish{
+  width: 300px;
+  height: auto;
+}
+
+/* STYLE BUTTON*/
+
+
+.text-center {
+  text-align: center;
+}
+
+
+.scriptQues {
+  background: #c3332b;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: Montserrat;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 2em;
+  color: #f2e0c2;
+}
